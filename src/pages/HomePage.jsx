@@ -1,5 +1,5 @@
 import React from 'react'
-import Body from '../components/Body/Body'
+import Body from '../components/HomeBody/Body'
 
 
 import Carouselll from '../components/Carousel/Carouselll'
