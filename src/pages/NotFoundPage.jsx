@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import { purple } from '@mui/material/colors';
 
 
 export default function Error() {
