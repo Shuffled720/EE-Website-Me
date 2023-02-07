@@ -1,14 +1,15 @@
-import { Box } from '@mui/system'
+import { Container } from '@mui/material'
 import React from 'react'
 import AboutUs from './AboutUs'
 import Events from './Events'
 const Body = () => {
   return (
     <>
-    <Box sx={{px:10}}>
+    <Container >
+      
       <Events/>
       <AboutUs/>
-    </Box>
+    </Container>
 
 
     </>

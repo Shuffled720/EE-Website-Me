@@ -94,11 +94,11 @@ const Header = () => {
     <>
       <Box className='logo-div' sx={{ display: 'flex', alignContent: 'center', px: 7, py: 1 }}>
         <img className='logo-img' src='logo.png' alt='logo_image' />
-        <Box sx={{ my: 'auto' }}>
-          <Typography>
+        <Box sx={{ my: 'auto', px:2 }}>
+          <Typography >
             DEPARTMENT OF ELECTRICAL ENGINEERING
           </Typography>
-          <Typography>
+          <Typography >
             INDIAN INSTITUTE OF TECHNOLOGY INDORE
           </Typography>
 

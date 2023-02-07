@@ -8,7 +8,7 @@ import Carouselll from '../components/Carousel/Carouselll'
 const HomePage = () => {
   return (
     <>
-        <Carouselll/>
+        <Carouselll />
         <Body/>
     </>
   )
