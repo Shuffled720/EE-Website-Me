@@ -4,8 +4,8 @@ import React from 'react';
 import Carousel from 'react-material-ui-carousel'
 
 
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
+// import ImageList from '@mui/material/ImageList';
+// import ImageListItem from '@mui/material/ImageListItem';
 
 import { Box } from '@mui/system';
 
