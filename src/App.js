@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage';
 import NotFoundPage from './pages/NotFoundPage';
+import DrawerAppBar from './components/Header/NewHeader';
+import { Container } from '@mui/system';
 
 function App() {
   return (

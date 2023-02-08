@@ -6,7 +6,6 @@ const Body = () => {
   return (
     <>
     <Container >
-      
       <Events/>
       <AboutUs/>
     </Container>

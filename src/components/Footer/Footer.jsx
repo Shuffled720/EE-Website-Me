@@ -41,13 +41,32 @@ const Footer = () => {
             <Typography variant='h5' sx={{ color: 'primary.main' }}>
               Important links
             </Typography>
-            <ul>
-              <li><Link to='/a'><Typography variant='body2' sx={{ color: 'secondary.main' }}>Home</Typography></Link></li>
-              <li><Link to='/a'><Typography variant='body2' sx={{ color: 'secondary.main' }}>About Us</Typography></Link></li>
-              <li><Link to='/a'><Typography variant='body2' sx={{ color: 'secondary.main' }}>People</Typography></Link></li>
-              <li><Link to='/a'><Typography variant='body2' sx={{ color: 'secondary.main' }}>Reasearch</Typography></Link></li>
-              <li><Link to='/a'><Typography variant='body2' sx={{ color: 'secondary.main' }}>Academics</Typography></Link></li>
+            {/* this is if needed to load without reload */}
+            {/* <ul>
+              <li><Link to='/'><Typography variant='body2' sx={{ color: 'secondary.main' }}>Home</Typography></Link></li>
+              <li><Link to='/about'><Typography variant='body2' sx={{ color: 'secondary.main' }}>About Us</Typography></Link></li>
+              <li><Link to='/people'><Typography variant='body2' sx={{ color: 'secondary.main' }}>People</Typography></Link></li>
+              <li><Link to='/research'><Typography variant='body2' sx={{ color: 'secondary.main' }}>Reasearch</Typography></Link></li>
+              <li><Link to='/academics'><Typography variant='body2' sx={{ color: 'secondary.main' }}>Academics</Typography></Link></li>
 
+
+            </ul> */}
+            <ul>
+              <li>
+                <a href='/'><Typography variant='body2' sx={{ color: 'secondary.main' }}>Home</Typography></a>
+              </li>
+              <li>
+                <a href='/about'><Typography variant='body2' sx={{ color: 'secondary.main' }}>About Us</Typography></a>
+              </li>
+              <li>
+                <a href='/people'><Typography variant='body2' sx={{ color: 'secondary.main' }}>People</Typography></a>
+              </li>
+              <li>
+                <a href='/research'><Typography variant='body2' sx={{ color: 'secondary.main' }}>Research</Typography></a>
+              </li>
+              <li>
+                <a href='/academics'><Typography variant='body2' sx={{ color: 'secondary.main' }}>Academics</Typography></a>
+              </li>
 
             </ul>
 

@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   color: #000000;
-}
+  font-family: 'Ubuntu', sans-serif;}
 
 
 
@@ -25,3 +25,18 @@
 .logo-img{
   width: 75px;
 }
+
+
+.nav-links{
+  padding: 7px 7px 7px 7px;
+
+}
+.nav-links:hover{
+  background-color: #9d04565e;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px 2px #ae6f915f;
+  
+  
+  /* padding: 2px; */
+}
+
