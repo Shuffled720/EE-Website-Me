@@ -7,7 +7,7 @@ import { Box } from '@mui/system'
 const AboutUsPage = () => {
   return (
     <>
-    <Box sx={{py:10}}>
+    <Box className='cornerspacing' sx={{py:10}}>
 
       <Container maxWidth="lg">
         <Typography variant='h3'>

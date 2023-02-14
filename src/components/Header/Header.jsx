@@ -157,7 +157,7 @@ const Header = () => {
 
             </Box>
 
-            <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+            <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent:'end' }}>
               {navItems.map((item) => (
                 <Link className='nav-links'
                   to={item[1]}

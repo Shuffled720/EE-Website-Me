@@ -57,7 +57,7 @@ function Item(props) {
                     </ImageListItem>
                 
             </ImageList> */}
-            <img className='carousel-bg' src={props.item.img_url} alt='carr'  width='100%' height='550px'/>
+            <img className='carousel-bg' src={props.item.img_url} alt='carr'  width='100%' height='600px'/>
             {/* <div className='carousel-text'>
 
                 <h2>{props.item.name}</h2>

@@ -8,6 +8,11 @@ import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage';
 import NotFoundPage from './pages/NotFoundPage';
 
+////data
+import researchDATA from './DATA/researchDATA';
+import laboratoryDATA from './DATA/laboratoryDATA';
+import CommonTamplate from './components/CommonTamplate';
+
 function App() {
   return (
     <>
@@ -17,6 +22,8 @@ function App() {
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/about' element={<AboutUsPage/>} />
+            <Route path='/research' element={<CommonTamplate Data={researchDATA} />} />
+            <Route path='/labs' element={<CommonTamplate Data={laboratoryDATA}/>} />
             <Route path='*' element={<NotFoundPage/>}/>
           </Routes>
           <Footer />
