@@ -27,7 +27,7 @@ const navItems = [
   ["About Us", "/about"],
   ["People", "/people"],
   ["Research", "/research"],
-  ["Academics", "/academics"],
+  ["Labs*", "/labs"],
 ];
 
 
