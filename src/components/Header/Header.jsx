@@ -103,7 +103,7 @@ const Header = () => {
       <AppBar position="static" color="secondary" >
 
         <Container maxWidth="xl" disableGutters={useMediaQuery(theme.breakpoints.only('xs'))}>
-        <Box className='logo-div' sx={{ display: { xs: 'flex', md: 'none' }, alignItems: 'center', px: 1 }}>
+        <Box className='logo-div' sx={{ display: { xs: 'flex', md: 'none' }, alignItems: 'center', px: 1 ,py:1}}>
           <Box>
             <img className='logo-img' src='logo.png' alt='logo_image' />
           </Box>
