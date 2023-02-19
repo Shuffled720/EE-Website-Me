@@ -9,11 +9,7 @@
 
 
 /* ////////////////////////Header///////////////// */
-.logo-div {}
 
-.logo-img {
-  width: 75px;
-}
 
 
 .nav-links {
@@ -37,7 +33,7 @@
   text-shadow: 4px 4px 5px #000000;
 }
 
-.cornerspacing {
+/* .cornerspacing {
   width: 90%;
   padding: 50px;
   margin: 50px;
@@ -60,4 +56,4 @@
 
 }
 
-
+ */
