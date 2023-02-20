@@ -102,7 +102,7 @@ const Header = () => {
 
         <Box sx={{ display: { xs: 'flex', md: 'none' }, alignItems: 'center', px: 1, py: 1}}>
           <Box>
-            <img src='logo.png' alt='logo_image' width='50' />
+            <img src='white-logo.png' alt='logo_image' width='50' />
           </Box>
           <Box sx={{px:1}} >
             <Typography fontSize='0.7rem' color='white' >
@@ -113,6 +113,7 @@ const Header = () => {
           <IconButton
             onClick={toggleDrawer('left', true)}
             sx={{ ml: 'auto' }}
+            color='secondary'
           >
             <MenuIcon />
           </IconButton>
