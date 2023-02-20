@@ -105,7 +105,7 @@ const Header = () => {
             <img src='logo.png' alt='logo_image' width='50' />
           </Box>
           <Box sx={{px:1}} >
-            <Typography fontSize='0.7rem'  >
+            <Typography fontSize='0.7rem' color='white' >
               Department Of Electical Engineering<br/>
               Indian Institute Of Technology
             </Typography>
